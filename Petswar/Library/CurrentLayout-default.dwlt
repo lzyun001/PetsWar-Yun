@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -93,10 +93,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 908, y: 442}
-  m_MaxSize: {x: 22003, y: 10021}
+  m_MinSize: {x: 911, y: 442}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 111
+  controlID: 148
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 36
+  controlID: 60
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,8 +162,8 @@ MonoBehaviour:
     y: 0
     width: 308
     height: 947
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -214,8 +214,8 @@ MonoBehaviour:
     y: 0
     width: 357
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -369,21 +369,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 56d9ffff76d9ffff42daffff6afbffffca330000da330000de330000303400003434000038340000
+      m_ExpandedIDs: 82adffffa2adffffa4adffffe6aeffff06afffffc6afffffacb0ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: player1 (1)
-        m_OriginalName: player1 (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 13306
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -470,20 +470,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/KID/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/KID/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\lzyun\Desktop\Yun\Shane\PetsWar\Petswar
+  m_LastProjectPath: C:\Users\lzyun\Desktop\Yun\PetsWar-Yun\Petswar
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de340000
-    m_LastClickedID: 13534
-    m_ExpandedIDs: 00000000a8340000aa340000ac340000ae340000b0340000b2340000b4340000b6340000b8340000ba340000bc340000be340000c0340000c2340000c4340000c6340000c8340000ca340000cc34000000ca9a3b
+    m_SelectedIDs: c24e0000
+    m_LastClickedID: 20162
+    m_ExpandedIDs: 00000000c04e0000c24e0000c44e0000c64e0000c84e0000ca4e0000cc4e0000ce4e0000d04e0000d24e0000d44e0000d64e0000d84e0000da4e0000dc4e0000de4e0000e04e0000e24e0000e44e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -511,7 +511,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8340000aa340000ac340000ae340000b0340000b2340000b4340000b6340000b8340000ba340000bc340000be340000c0340000c2340000c4340000c6340000c8340000ca340000cc340000
+    m_ExpandedIDs: 00000000c04e0000c24e0000c44e0000c64e0000c84e0000ca4e0000cc4e0000ce4e0000d04e0000d24e0000d44e0000d64e0000d84e0000da4e0000dc4e0000de4e0000e04e0000e24e0000e44e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
