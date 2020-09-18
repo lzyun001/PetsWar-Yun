@@ -30,11 +30,9 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/Game04_Tagyoure it.unity:
+    Assets/Scenes/Game02_running.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -55,9 +53,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
-    - Class: 64
+    - Class: 61
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -80,41 +80,37 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11194}
+      Script: {instanceID: 13696}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 13896}
     - Class: 114
-      Script: {instanceID: 11402}
+      Script: {instanceID: 13938}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 14006}
     - Class: 114
-      Script: {instanceID: 11514}
+      Script: {instanceID: 14284}
     - Class: 114
-      Script: {instanceID: 11796}
+      Script: {instanceID: 14310}
     - Class: 114
-      Script: {instanceID: 11822}
+      Script: {instanceID: 14338}
     - Class: 114
-      Script: {instanceID: 11852}
+      Script: {instanceID: 14442}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 14894}
     - Class: 114
-      Script: {instanceID: 12420}
+      Script: {instanceID: 14906}
     - Class: 114
-      Script: {instanceID: 12424}
+      Script: {instanceID: 15064}
     - Class: 114
-      Script: {instanceID: 12438}
+      Script: {instanceID: 15154}
     - Class: 114
-      Script: {instanceID: 12604}
+      Script: {instanceID: 15302}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 15338}
     - Class: 114
-      Script: {instanceID: 12844}
-    - Class: 114
-      Script: {instanceID: 12882}
-    - Class: 114
-      Script: {instanceID: 13054}
+      Script: {instanceID: 15508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -128,6 +124,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -212,12 +210,6 @@ ScriptsOnlyBuild:
     className: Scrollbar
   - hash:
       serializedVersion: 2
-      Hash: 90a2f82c2960d07995685873628c2d66
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DancePlayerManager
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -254,7 +246,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 755bbec704dc139e4ec12626c2b39726
+      Hash: 2cdacd47cbf5cc19ffb775eeeb44f2cf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Ribb
@@ -278,7 +270,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 755bbec704dc139e4ec12626c2b39726
+      Hash: 2cdacd47cbf5cc19ffb775eeeb44f2cf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Cat
@@ -374,16 +366,10 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 755bbec704dc139e4ec12626c2b39726
+      Hash: 2cdacd47cbf5cc19ffb775eeeb44f2cf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Turtle
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DanceNode
   - hash:
       serializedVersion: 2
       Hash: 56ccea0d351c70368e1677199ea00319
@@ -458,7 +444,7 @@ ScriptsOnlyBuild:
     className: RunningDog
   - hash:
       serializedVersion: 2
-      Hash: 9e9bff5b14d9bc167fe715a66dc02c87
+      Hash: 7d92e84e0116db3fdeb625480b8dc326
     assemblyName: Assembly-CSharp.dll
     namespaceName: KID
     className: ChooseCharacter
@@ -554,16 +540,16 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: 2798b327758163a35b0ba663fb582567
+      Hash: 60b372f1996a696875795462785e32e2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DuelRibb
   - hash:
       serializedVersion: 2
-      Hash: 2798b327758163a35b0ba663fb582567
+      Hash: 60b372f1996a696875795462785e32e2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerControlDuel
+    className: DuelDog
   - hash:
       serializedVersion: 2
       Hash: 49823b783dd4ac8070e20e11f012ce72
@@ -572,13 +558,7 @@ ScriptsOnlyBuild:
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TestScene
-  - hash:
-      serializedVersion: 2
-      Hash: 9dde89704aeebfabb3f9587b898fb560
+      Hash: 3532d443658655e29ef3ce04d883029e
     assemblyName: Assembly-CSharp.dll
     namespaceName: KID
     className: PlayerData
@@ -608,7 +588,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 2798b327758163a35b0ba663fb582567
+      Hash: 60b372f1996a696875795462785e32e2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DuelTurtle
@@ -632,7 +612,7 @@ ScriptsOnlyBuild:
     className: ScoreSystem
   - hash:
       serializedVersion: 2
-      Hash: 755bbec704dc139e4ec12626c2b39726
+      Hash: 2cdacd47cbf5cc19ffb775eeeb44f2cf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerControl
@@ -656,7 +636,7 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: 2798b327758163a35b0ba663fb582567
+      Hash: 60b372f1996a696875795462785e32e2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DuelCat
@@ -738,13 +718,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 1a6defa92e4251f3b1fd5e5c306c23e3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DanceManager
   platform: 20
   scenePathNames:
-  - Assets/Scenes/Game04_Tagyoure it.unity
-  playerPath: C:/Users/lzyun/Desktop/Yun/Shane/PetsWar/Game04_TagYoureit
+  - Assets/Scenes/Game02_running.unity
+  playerPath: C:/Users/lzyun/Desktop/Yun/Shane/PetsWar/Game02_running
