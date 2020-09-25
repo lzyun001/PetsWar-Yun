@@ -30,6 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game02_running.unity
     guid: b66104e19d7c0354c948eda71e5fd3a2
   - enabled: 1
-    path: Assets/Scenes/Game04_Tagyoure it.unity
-    guid: dc823d84baf491646a973e289e7e2fdb
+    path: Assets/Scenes/Game05_volleyball.unity
+    guid: bc59afbc6f11ec044b3a10e72ddd40dc
   m_configObjects: {}
